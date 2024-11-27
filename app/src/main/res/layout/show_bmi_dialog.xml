@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_margin="20dp"
+    android:layout_width="match_parent"
+    android:layout_height="350dp"
+    android:id="@+id/contentlayout"
+    android:background="@drawable/cardbackground"
+    android:layout_centerInParent="true"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="10dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="50sp"
+            android:textStyle="bold"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:id="@+id/bmidisplay"
+            android:padding="20dp"
+            android:text="22"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Gender"
+            android:gravity="center"
+            android:layout_marginTop="15dp"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            android:layout_weight="1"
+            android:textColor="@color/white"
+            android:id="@+id/genderdisplay" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="YOUR BMI CATEGORY IS:"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:id="@+id/bmicategorydispaly"
+            android:textColor="@color/white"
+            android:layout_marginTop="15dp"
+            android:layout_weight="1"
+            android:textSize="25sp">
+
+        </TextView>
+
+
+
+        <android.widget.Button
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:id="@+id/gotomain"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/buttonbackground"
+            android:layout_weight="1"
+            android:text="RECALCULATE YOUR BMI"
+            android:textSize="15sp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:layout_marginVertical="20dp"
+            android:layout_marginHorizontal="20dp"/>
+
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/basic_calculator"
+            android:icon="@drawable/baseline_calculate_24"
+            android:title="@string/basic_calculator"/>
+        <item
+            android:id="@+id/bmi_calculator"
+            android:icon="@drawable/baseline_monitor_weight_24"
+            android:title="@string/bmi_calculator" />
+        <item
+            android:id="@+id/bmr_calculator"
+            android:icon="@drawable/baseline_workspace_premium_24"
+            android:title="@string/bmr_calculator" />
+        <item
+            android:id="@+id/discount_calculator"
+            android:icon="@drawable/baseline_discount_24"
+            android:title="@string/discount_calculator" />
+        <item
+            android:id="@+id/tip_calculator"
+            android:icon="@drawable/baseline_tips_and_updates_24"
+            android:title="@string/tip_calculator" />
+
+        <item
+            android:title="@string/communicate">
+            <menu>
+                <item
+                    android:id="@+id/nav_share"
+                    android:icon="@drawable/baseline_share_24"
+                    android:title="@string/share" />
+                <item
+                    android:id="@+id/nav_rate"
+                    android:icon="@drawable/baseline_star_rate_24"
+                    android:title="@string/rate" />
+            </menu>
+        </item>
+    </group>
+</menu>
