@@ -29,7 +29,6 @@ public class AppOpenManager {
         AdRequest request = new AdRequest.Builder().build();
         AppOpenAd.load(
                 context, context.getString(R.string.admob_appopen_ad_unit), request,
-                AppOpenAd.APP_OPEN_AD_ORIENTATION_PORTRAIT,
                 new AppOpenAd.AppOpenAdLoadCallback() {
                     @Override
                     public void onAdLoaded(AppOpenAd ad) {
